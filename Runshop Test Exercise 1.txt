@@ -1,0 +1,47 @@
+Exercise 1
+
+For this exercise, use the horse racing dataset found in the file "horses.csv".
+
+Definitions:
+- "win_fair_price" is the price representing the true probability that the horse wins. (In reality you never know this but assume you do).
+- "win_starting_price" is the market's price that the horse wins at the start time of the race. 
+- "winner" is a binary value indicating whether the horse won or lost the race. 
+- "Early_Market_Price" is the price you are offered to bet by the bookmaker at some time, t, before the race starts. 
+- "Early_Model_Price" is your own model's price for the horse to win at the time that the bookmaker offers his prices before the race starts (time t).
+- "Starting_Model_Price" is your model's price for the horse to win at the start time of the race.
+- "race_number" and "saddle_number" are unique identifiers for the race and the horse, respectively.
+
+Tasks:
+For the following questions, assume that you can only bet the Early_Market_Price and the only information that you have is your Early_Model_Price.	
+
+Q1:
+How many selections are you betting? Why?
+
+Q2:
+Define "Stake" as the amount that you bet, "PnL" as the Profit and Loss and "PnL RoI" as PnL/Stake.
+
+Calculate the Total Stake and Total PnL RoI, assuming a Unit Stake per selection that you bet.
+Calculate the Total Stake and Total PnL RoI, assuming a Kelly Stake per selection that you bet. Use 100,000 as your Kelly bankroll for this calculation.
+
+Q3:
+Define "EV" as the Expected Value of a bet and "EV RoI" as EV/Stake.
+Using the win_fair_price calculate the Total EV RoI for: 
+a) the Unit Stake strategy,
+b) the Kelly Stake strategy.
+
+Q4:
+a) Do you think your model is profitable in the long-term? Briefly explain your reasoning. (Hint: Run a Monte Carlo simulation).
+b) Which of the four prices (win_starting_price, Early_Market_Price, Early_Model_Price, Starting_Model_Price) is the best predictor of the win_fair_price, based on the data provided? Explain your answer.
+
+
+Q3:
+Definitions EV ROI:=sum(EV)/sum(Stake)
+Using the win_fair_price calculate your EV ROI for 
+a) the unit stake strategy
+b) the kelly stake strategy
+
+Q4:
+
+a) Do you think your model is profitable longterm ? Briefly explain your answer (Hint Do a Monte carlo simulation)
+b) Assume you don't know the win_fair_price, but you know all other prices.
+Which of the 4 markets (win_starting,Early_Market, Early_Model, Starting_Model) is the most efficient (ie better predictor of win_fair_price) based on the data provided? Explain your answer

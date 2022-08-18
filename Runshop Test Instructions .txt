@@ -1,0 +1,44 @@
+Instructions.
+Please try to answer all questions
+
+Please submit any code you have written to answer these questions. Use R or Python.
+You must use vectorised operations everywhere that they are practical.
+
+Please write plenty of comments in your source code:
+
+* What you want to do.
+* Decisions and assumptions that you make.
+* What you do not know or understand.
+
+
+In your submission please include a txt/word document where you type in your answer to the questions in the exercise. Please make sure to point clearly to which exercise and question each answer corresponds to.
+Please include the exercise number and the question number on the heading of any plots you submit.
+
+In case you have no betting experence please check the usefull reading section beofre completing the test.
+#######
+Usefull Reading:
+
+Basic Reading
+* [Understanding betting odds.](https://www.gamblingsites.com/sports-betting/introduction/understanding-odds/)
+* [Back and lay betting explained.](https://myracing.com/guides/betfair-exchange/betfair-exchange-back-lay-betting-explained/)
+
+Expected value (EV)
+* [How to calculate expected value.](https://www.pinnacle.com/en/betting-articles/betting-strategy/how-to-calculate-expected-value)
+* [What is value betting?](https://www.bettingexpert.com/academy/betting-fundamentals/what-is-value-betting)
+
+
+Kelly bet
+
+* [Staking: One method to improve your betting.](https://www.pinnacle.com/en/betting-articles/betting-strategy/staking-one-method-to-improve-your-betting)
+* [How to use Kelly criterion for betting.](https://www.pinnacle.com/en/betting-articles/betting-strategy/how-to-use-kelly-criterion-for-betting)
+* [How to manage your betting bankroll.](https://www.bettingexpert.com/how-to/manage-your-betting-bankroll)
+* [How to calculate the Kelly criterion.](https://www.bettingexpert.com/how-to/calculate-the-kelly-criterion)
+* [Kelly criterion in detail.](http://www.elem.com/~btilly/kelly-criterion/) (optional)
+
+
+EW Betting
+[What is an Each Way bet.](https://mybettingsites.co.uk/learn/each-way-betting/)
+
+Rule 4 Deduction and Non Runners
+* [What is a Rule 4 and how to calculate your winnings](https://www.justbookies.com/betting-explained/rule-4-explained/)
+* [What is a NOn Runner and how it affects my bets](https://www.oddsmonkey.com/blog/matched-betting/non-runners-horse-racing/)

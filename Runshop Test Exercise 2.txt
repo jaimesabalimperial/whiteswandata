@@ -1,0 +1,41 @@
+Exercise 2
+
+For this exercise, use the horse racing dataset found in the file "runner_bets.csv".
+In this exercise we check the bets of various people betting horses using the same model.
+
+Definitions:
+- "Runner" is the name of the person who placed the bet.
+- "ExpROI" is the model's expected return on investment. 
+- "Stake" is the amount the runner successfully placed on the selection.
+- "PriceTaken" is the odds that the runner placed, in decimal format. 
+- "EW" is a binary indicator of whether the bet was an Each Way bet. 
+- "Terms" is the denominator in the EW price. e.g.) Terms = 3 implies a 1/3 EW bet.
+- "Deduction" is the "Rule 4" deduction for the horse. e.g.) Deduction = 0.1 implies a 10p deduction.
+- "BSP" is the Betfair Starting Price, the odds found on Betfair Exchange for the horse to win at the race start time.
+- "BSPplace" is the Betfair Starting Price for the horse to place, found at the race start time.
+
+Q1:
+Assume that BSP and BSPplace are prices representing the true probability for a horse to win and place, respectively.
+Plot the cumulative PnL and EV as a function of time in days.
+Plot a 2-week rolling PnL and EV average.
+Do you think that your assumed EV is an accurate representation of your real edge? (Hint: Run a Monte Carlo simulation).
+
+Q2:
+Analysis:
+a) Check the performance of your model based on ExpROI. Are bets with higher ExpROI more valuable?
+b) Check the performance of your model based on the time of the day the bet was placed. Do you see any significant results?
+c) Check how you perform on horses relative to stake size. i.e. does the performance differ on horses you staked a lot vs the ones you staked less? How would you interpret the results?
+
+Q3:
+Assume the people betting (the runners) are working for you.
+a) Think of a way to rank them from best to worst.
+b) Would you keep working with all of them? If no, then would you drop some? Explain your answer.
+
+c) Check how you perform on horses you staked a lot vs ones you staked less. How would you interpret this?
+
+Q3:
+Assume the people betting are working for you.
+
+Think of a way to rank them from best to worst.
+Would you keep working with all of them? Would you drop some ?
+Explain your answer
