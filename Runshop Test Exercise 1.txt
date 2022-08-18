@@ -18,7 +18,7 @@ Q1:
 How many selections are you betting? Why?
 
 Q2:
-Define "Stake" as the amount that you bet, "PnL" as the Profit and Loss and "PnL RoI" as PnL/Stake.
+Define "Stake" as the amount that you bet, "PnL" as the PSrofit and Loss and "PnL RoI" as PnL/Stake.
 
 Calculate the Total Stake and Total PnL RoI, assuming a Unit Stake per selection that you bet.
 Calculate the Total Stake and Total PnL RoI, assuming a Kelly Stake per selection that you bet. Use 100,000 as your Kelly bankroll for this calculation.
